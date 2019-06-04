@@ -45,7 +45,7 @@ namespace AreaFigure
 
         private bool IsNotTriangle(double[] sortedSides)
         {
-            if (sortedSides[0] > (sortedSides[1] + sortedSides[2]))
+            if (sortedSides[0] >= (sortedSides[1] + sortedSides[2]))
             {
                 return true;
             }
